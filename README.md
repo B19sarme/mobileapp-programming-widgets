@@ -25,6 +25,8 @@ Detta är dem tre följande ändringarna som har gjorts på första frågan. byt
 Bilder läggs i samma mapp som markdown-filen.
 
 ![](android.png)
+![](android2.png)
+![](android3.png)
 
 Läs gärna:
 
