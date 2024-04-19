@@ -4,6 +4,8 @@
 **Skriv din rapport här!**
 I den första frågan var det att göra tre olika ändringarna i appen och jag gjorde utifrån vad som jag har lärt mig hittlis och dem tre ändringarna var följande börja med att byta 
 appnamnet på titlen, sedan så ändrad jag android texten som fanns på appen och sedan gav jag internet återkomst till appen för det var några saker som man har lärt sig innan. 
+Samt så har en massa widgets och layouts ändrats och det har ändrats på margin och placeringarna så att det ser snyggare ut på appen, några saker som har lagts,
+är att Button, Editview och Imageview för göra appen desto proffsigare och snyggare. 
 
 Programkod ska se ut som exemplet nedan. Koden måste vara korrekt indenterad då den blir lättare att läsa vilket gör det lättare att hitta syntaktiska fel.
 
