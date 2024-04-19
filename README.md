@@ -2,33 +2,24 @@
 # Rapport
 
 **Skriv din rapport här!**
-
-_Du kan ta bort all text som finns sedan tidigare_.
-
-## Följande grundsyn gäller dugga-svar:
-
-- Ett kortfattat svar är att föredra. Svar som är längre än en sida text (skärmdumpar och programkod exkluderat) är onödigt långt.
-- Svaret skall ha minst en snutt programkod.
-- Svaret skall inkludera en kort övergripande förklarande text som redogör för vad respektive snutt programkod gör eller som svarar på annan teorifråga.
-- Svaret skall ha minst en skärmdump. Skärmdumpar skall illustrera exekvering av relevant programkod. Eventuell text i skärmdumpar måste vara läsbar.
-- I de fall detta efterfrågas, dela upp delar av ditt svar i för- och nackdelar. Dina för- respektive nackdelar skall vara i form av punktlistor med kortare stycken (3-4 meningar).
+I den första frågan var det att göra tre olika ändringarna i appen och jag gjorde utifrån vad som jag har lärt mig hittlis och dem tre ändringarna var följande börja med att byta 
+appnamnet på titlen, sedan så ändrad jag android texten som fanns på appen och sedan gav jag internet återkomst till appen för det var några saker som man har lärt sig innan. 
 
 Programkod ska se ut som exemplet nedan. Koden måste vara korrekt indenterad då den blir lättare att läsa vilket gör det lättare att hitta syntaktiska fel.
 
 ```
-function errorCallback(error) {
-    switch(error.code) {
-        case error.PERMISSION_DENIED:
-            // Geolocation API stöds inte, gör något
-            break;
-        case error.POSITION_UNAVAILABLE:
-            // Misslyckat positionsanrop, gör något
-            break;
-        case error.UNKNOWN_ERROR:
-            // Okänt fel, gör något
-            break;
-    }
-}
+Ändring 1
+<resources>
+    <string name="app_name">To-Do List Appen</string>
+</resources>
+
+Ändring 2
+android:text="Välkommen till denna fantatiska app där man ska göra listor med antingen saker man har gjort eller har saker och göra."
+
+Ändring 3
+<uses-permission android:name="android.permission.INTERNET" />
+
+Detta är dem tre följande ändringarna som har gjorts på första frågan. byta appnamnet på titlen, sedan så ändrad jag android texten som fanns på appen och sedan gav jag internet återkomst till appen för det var några saker som man har lärt sig innan.
 ```
 
 Bilder läggs i samma mapp som markdown-filen.
